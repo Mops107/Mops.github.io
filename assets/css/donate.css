@@ -1,0 +1,355 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Russo One', sans-serif;
+	color: #000;
+	font-size: 16px;
+} 
+
+ a {
+     color: #000;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	color:#fff;
+}
+
+ul, li {
+	display: block;	
+	padding: 2;
+	margin: 0;		
+}
+
+.container { 
+	width: 1170;
+	margin: 0 auto;	
+}
+
+.header {
+	background: url("https://cdn.discordapp.com/attachments/811237665411170375/830838342530105344/-1.jpg") no-repeat center / cover;
+	background-size: 1000px / cover;
+    margin-top: 0px;
+		 
+}
+
+.header a {
+	color : #fff;
+}
+
+.menu {
+	display: flex;
+} 
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 40px;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+}
+
+.logo {
+	margin-right: 69px;
+	padding: 3px;
+}
+
+.div {
+	display: flex;	
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.button {
+	padding-top: 30px;
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;	
+	width: 150px;
+	text-decoration: none;	
+	font-family: 'Oswald', sans-serif;
+	transition: all 0.7s ease;
+	margin-left: 190px;
+	padding-top: 15px;
+    padding-top: 15px;    
+} 
+
+.button:hover {
+	background: #fff;	
+	color: #000;
+	transition: all 0.7s ease;
+} 
+
+.hst a {
+	margin-left: 500px;
+	text-decoration: none;
+   }
+
+.header p {
+	color : #fff;
+	margin-left: 190px;
+}
+
+.offer h1 {
+	font-size: 100px;
+	margin-left: 190px;
+	padding-top: 0px;
+}
+
+.offer p {
+	font-size: 30px;
+	padding-top: 200px;
+}
+
+
+.about .container {
+    background-image: url("https://cdn.discordapp.com/attachments/803288409853395004/831516370759581726/money.png") ;
+    background-size: 900px;
+    background-repeat: no-repeat ;    
+    background-position-x: 550px;
+    background-position-y: 0px;
+    background-color: #fff;
+   }
+
+.donate h2 {
+    color: #000;
+    font-size: 60px;
+    padding-top: 80px;
+}
+
+.donate  {
+    color: #000;
+    margin-left: 150px;
+}
+
+.button2 {
+    padding-top: 30px;
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid rgb(255, 146, 4);	
+	width: 150px;
+	text-decoration: none;	
+	font-family: 'Oswald', sans-serif;
+	transition: all 0.7s ease;
+    color: rgb(255, 146, 4);
+	margin-left: 0px;
+	padding-top: 15px;
+} 
+
+.button2:hover {
+    background: rgb(255, 146, 4);	
+	transition: all 0.7s ease;
+    color: #fff;
+}
+
+.donate h3 {    
+    margin-left: 350px;
+    padding-top: 100px; 
+    color: #000;    
+    font-size: 40px;    
+    }
+
+.donate h4 {
+    margin-left: 250px;
+    padding-top: 60px; 
+    color: #000;    
+    font-size: 25px;
+}   
+
+.spisok  {
+    display: block;	
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+    width: 1000px;
+    height: 100px;
+	padding: 17px 47px;        
+	border: 1px solid rgb(255, 146, 4);	
+	text-decoration: none;	
+	font-family: 'Oswald', sans-serif;
+	transition: all 0.7s ease;
+	margin-left: 0px;
+	padding-top: 15px;
+    color: black;
+}    
+
+.spisok:hover {
+    background: rgb(255, 146, 4);	
+	color: #fff;
+	transition: all 0.7s ease;
+} 
+
+h5 {
+	color: #fff;
+	padding-top: 25px;
+	margin-left: 230px;
+	font-size: 16px;
+}
+
+.img {
+	background: url("https://cdn.discordapp.com/attachments/803288409853395004/831066831502180373/-1.png") no-repeat  top / cover  ;
+	background-size: 30px;
+	margin-top: 100px;
+}
+
+h6 {
+	color: #fff;
+	padding-top: 25px;
+	margin-left: 230px;
+	font-size: 16px;
+}
+
+
+.footer p {
+	color: #fff;
+	padding-top: 200px;
+	margin-left: 300px; 
+	text-align: center;
+	font-size: 18px;
+}
+
+.footer {
+	margin-top: 15px;	
+	background-color: rgb(255, 146, 4);	
+}
+
+@media screen and (max-width: 1400px) {
+	.container {
+		width: 100%;
+	}	
+}
+
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+	.container {
+		width: 100%;
+	}
+
+	.BX {
+		margin-left: 0;
+	}
+
+	.link1 {
+		font-family: 'Anton', sans-serif;
+		display: block;
+		background: #fff;	
+		text-decoration: none;
+		font-size: normal;
+		text-align: center;		
+		border: 1px solid rgb(255, 146, 4);					
+		width: 220px;
+		padding-top: 0px;	
+		transition: all 0.7s ease;
+		flex-wrap: nowrap;
+		float: right ;
+		margin-right: 1250px;
+		}
+
+	.hst a {
+		margin-left: 1000px;
+		text-decoration: none;
+	   }		
+
+	.offer p {
+		font-size: 50px;
+		padding-top: 300px;
+		margin-left: 260px;
+		}		
+	
+
+	.offer h1 {
+		font-size: 100px;
+		margin-left: 260px;
+		padding-top: 0px;
+		}
+
+	.button {
+		padding-top: 30px;
+		display: block;
+		font-size: 17px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		padding: 17px 47px;
+		border: 1px solid #fff;	
+		width: 150px;
+		text-decoration: none;	
+		font-family: 'Oswald', sans-serif;
+		transition: all 0.7s ease;
+		margin-left: 260px;	
+		}
+
+	.donate h2 {
+	margin-left: 120px;
+	}
+		
+	.donate p {
+		color: #000;
+		margin-left: 120px;
+	}	
+	
+	.button2 {
+    padding-top: 30px;
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid rgb(255, 146, 4);	
+	width: 150px;
+	text-decoration: none;	
+	font-family: 'Oswald', sans-serif;
+	transition: all 0.7s ease;
+    color: rgb(255, 146, 4);
+	margin-left: 120px;
+	padding-top: 15px;
+	} 
+
+	.spisoc  {
+		margin-left: 280px;
+	}
+
+	.about .container {
+		background-image: url("https://cdn.discordapp.com/attachments/803288409853395004/831516370759581726/money.png") ;
+		background-size: 900px;
+		background-repeat: no-repeat ;    
+		background-position-x: 950px;
+		background-position-y: 0px;
+		background-color: #fff;
+	   }
+
+	.spisok  {
+		display: block;	
+		font-size: 17px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		width: 1000px;
+		height: 100px;
+		padding: 17px 47px;        
+		border: 1px solid rgb(255, 146, 4);	
+		text-decoration: none;	
+		font-family: 'Oswald', sans-serif;
+		transition: all 0.7s ease;
+		margin-left: 250px;
+		padding-top: 20px;
+		color: black;
+	}   
+
+	.aboba {
+		padding-top: 30px;
+	}
+
+}	
+
+
+

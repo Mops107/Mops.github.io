@@ -1,0 +1,190 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Russo One', sans-serif;
+	color: #000;
+	font-size: 16px;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	color:#fff;
+}
+
+ul, li {
+	display: block;	
+	padding: 2;
+	margin: 0;		
+}
+
+.container { 
+	width: 1170;
+	margin: 0 auto;	
+}
+
+.header {
+	background: url("https://cdn.discordapp.com/attachments/811237665411170375/830838342530105344/-1.jpg") no-repeat center / cover;
+	background-size: 1000px / cover;
+		 
+}
+
+.header a {
+	color : #fff;
+}
+
+.menu {
+	display: flex;
+} 
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 40px;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+}
+
+.logo {
+	margin-right: 69px;
+	padding: 3px;
+}
+
+.div {
+	display: flex;	
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 57px;
+}
+
+.button {
+	padding-top: 30px;
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;	
+	width: 150px;
+	text-decoration: none;	
+	font-family: 'Oswald', sans-serif;
+	transition: all 0.7s ease;
+	margin-left: 190px;
+	padding-top: 15px;
+} 
+
+.button:hover {
+	background: #fff;	
+	color: #000;
+	transition: all 0.7s ease;
+} 
+
+.hst a {
+	margin-left: 500px;
+	text-decoration: none;
+   }
+
+.header p {
+	color : #fff;
+	margin-left: 190px;
+}
+
+.offer h1 {
+	font-size: 100px;
+	margin-left: 190px;
+	padding-top: 0px;
+}
+
+.offer p {
+	font-size: 30px;
+	padding-top: 200px;
+}
+
+.offer {
+	padding: 40px;
+}
+
+.thank h2 {
+	padding-top: 50px;
+	color: #000;
+	margin-left: 200px;
+	font-size: 30px;
+}
+
+.thank p {
+	padding-top: 10px;
+	color: #000;
+	margin-left: 200px;
+	font-size: 18px;
+}
+
+h3 {
+	color: #000;
+	padding-top: 100px;
+	margin-left: 200px;
+	font-size: 33px;
+}
+
+
+.txt {
+	color: #000;
+	padding-top: 0px;
+	margin-left: 200px;
+	font-size: 20px;
+}
+
+.button2 {
+    padding-top: 30px;
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #000;	
+	width: 150px;
+	text-decoration: none;	
+	font-family: 'Oswald', sans-serif;
+	transition: all 0.7s ease;
+    color: #000;
+	margin-left: 200px;
+	padding-top: 15px;
+} 
+
+.button2:hover {
+    background: rgb(255, 146, 4);
+	border: 1px solid rgb(255, 146, 4);	
+	transition: all 0.7s ease;
+    color: #fff;
+}
+
+h5 {
+	color: #fff;
+	padding-top: 25px;
+	margin-left: 230px;
+	font-size: 16px;
+}
+
+h6 {
+	color: #fff;
+	padding-top: 25px;
+	margin-left: 230px;
+	font-size: 16px;
+}
+
+
+.footer p {
+	color: #fff;
+	padding-top: 200px;
+	margin-left: 300px; 
+	text-align: center;
+	font-size: 18px;
+}
+
+.footer {
+	margin-top: 15px;	
+	background-color: rgb(255, 146, 4);	
+}

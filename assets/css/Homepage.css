@@ -1,0 +1,462 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Russo One', sans-serif;
+	color: #000;
+	font-size: 16px;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	color:#fff;
+}
+
+ul, li {
+	display: block;	
+	padding: 2;
+	margin: 0;		
+}
+
+.container { 
+	width: 1170;
+	margin: 0 auto;	
+}
+
+.header {
+	background: url("https://cdn.discordapp.com/attachments/811237665411170375/830838342530105344/-1.jpg") no-repeat center / cover !important;
+	background-size: 1000px / cover;
+	position: static;
+}
+	
+.header a {
+	color : #fff;
+}
+
+.menu {
+	display: flex;
+} 
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 40px;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+}
+
+.logo {
+	margin-right: 69px;
+	padding: 3px;
+}
+
+.div {
+	display: flex;	
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding-top: 57px;
+}
+
+.button {
+	padding-top: 30px;
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;	
+	width: 150px;
+	text-decoration: none;	
+	font-family: 'Oswald', sans-serif;
+	transition: all 0.7s ease;
+	margin-left: 190px;
+	padding-top: 15px;
+} 
+
+.button:hover {
+	background: #fff;	
+	color: #000;
+	transition: all 0.7s ease;
+} 
+
+.hst a {
+	margin-left: 500px;
+	text-decoration: none;
+   }
+
+.header p {
+	color : #fff;
+	margin-left: 190px;
+}
+
+.offer h1 {
+	font-size: 100px;
+	margin-left: 190px;
+	padding-top: 0px;
+}
+
+.offer p {
+	font-size: 30px;
+	padding-top: 200px;
+}
+
+.offer {
+	padding: 40px;
+}
+
+.about {
+	background-color: #fff;
+}
+
+
+.description {
+	margin-left: 200px;
+}
+
+h2 {
+	color: #000;
+	font-size: 45px;
+	padding-top: 117px;	
+	margin-left: 180px;
+	
+}
+
+.button2 {	
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #000;	
+	background: #fff;			
+	width: 150px;
+	text-decoration: none;	
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	transition: all 0.7s ease;
+	margin-left: 190px;
+	padding-top: 15px;	
+	color: #000; 
+	size: 1px;
+} 
+
+.button2:hover {
+	border: 1px solid rgb(255, 146, 4);
+	background-color: rgb(255, 146, 4);
+	color: white;
+}
+
+.about h3{	
+	color: #000;
+	padding-top: 12px;
+}
+
+.title {
+	background-image: url("https://cdn.discordapp.com/attachments/803288409853395004/831827357903093790/ea08c4f0ad4e890c.png");
+	background-size: 600px;	
+	background-repeat: no-repeat;
+	background-position-x: 700px;
+	background-position-y: 80px;
+					
+}
+
+.place_talk h3 {
+	padding-top: 90px;
+	font-size: 40px;
+	margin-left: 170px;
+}
+
+.place_talk p {
+	padding-top: 20px;
+	font-size: 18px;
+	margin-left: 175px;	
+}
+
+.many_category {
+	background: url("https://cdn.discordapp.com/attachments/803288409853395004/831842495230771241/category.png");
+	background-repeat: no-repeat;
+	background-size: 600px;
+	background-position-x: 150px;
+	background-position-y: 100px;
+}
+
+.many_category h3 {
+	margin-left: 650px;
+	padding-top: 150px;
+	font-size: 38px;
+}
+
+.donate h1 {
+	position: center;
+	font-size: 50px;
+	margin-left: 190px;
+}
+
+.donate p {
+	position: center;
+	margin-left: 190px;
+}
+
+.place_talk {
+	background-image: url("https://cdn.discordapp.com/attachments/827950808867668028/832552071760707634/2021-04-16_15-43-47.png");
+	background-repeat: no-repeat;
+	background-size: 250px;
+	background-position-x: 950px;
+	background-position-y: 100px;
+} 
+
+.many_category p {
+	margin-left: 650px;
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+
+.link h3 {
+	color: rgb(255, 146, 4);
+	letter-spacing: 0.1em;
+	padding-top: 0;
+}
+
+.link2 h3 {
+	color: #000;
+	letter-spacing: 0.05em;
+	padding-top: 0;
+}
+
+.link1 {
+	font-family: 'Anton', sans-serif;
+	display: block;
+	background: #fff;	
+	text-decoration: none;
+	font-size: normal;
+	text-align: center;		
+	border: 1px solid rgb(255, 146, 4);					
+	width: 220px;
+	padding-top: 0px;	
+	transition: all 0.7s ease;
+	flex-wrap: nowrap;
+	float: right ;
+	margin-right: 180px;
+}
+
+.link1:hover {
+	border: 1px solid rgb(255, 146, 4);
+	background-color: rgb(255, 146, 4);
+	transition: all 0.7s ease;
+	color: white;	
+}
+
+.link2 {		
+	font-family: 'Anton', sans-serif;
+	display: block;
+	background: #fff;	
+	text-decoration: none;
+	font-size: normal;
+	text-align: center;		
+	color: #000;
+	margin-left: 700px;	
+	border: 1px solid #000000;					
+	width: 220px;
+	padding-top: 0px;	
+	transition: all 0.7s ease;
+}
+
+.link2:hover {
+	border: 1px solid #000;
+	background-color: #000;
+	transition: all 0.7s ease;
+	color: #fff;
+}
+
+.heading {
+	padding-top: 1px;
+	font-family: 'Anton', sans-serif;
+}
+
+h4 {
+	color: #000;
+	padding-top: 120px;	
+	margin-left: 700px;
+	font-size: 45px;
+}
+
+
+.p {
+	color: #000;
+	padding-top: 10px;	
+	margin-left: 700px;
+	font-size: 20px;
+}
+
+
+h5 {
+	color: #fff;
+	padding-top: 25px;
+	margin-left: 230px;
+	font-size: 16px;
+}
+
+
+h6 {
+	color: #fff;
+	padding-top: 25px;
+	margin-left: 230px;
+	font-size: 16px;
+}
+
+
+.footer p {
+	color: #fff;
+	padding-top: 200px;
+	margin-left: 300px; 
+	text-align: center;
+	font-size: 18px;
+}
+
+.footer {
+	margin-top: 15px;	
+	background-color: rgb(255, 146, 4);	
+}
+
+@media screen and (max-width: 1400px) {
+	.container {
+		width: 100%;
+	}	
+}
+
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+	.container {
+		width: 100%;
+	}
+
+	.title {
+		margin-left: 120px;
+	}	
+
+	.link1 {
+		font-family: 'Anton', sans-serif;
+		display: block;
+		background: transparent;	
+		text-decoration: none;
+		font-size: normal;
+		text-align: center;		
+		border: 1px solid rgb(255, 146, 4);					
+		width: 220px;
+		padding-top: 01px;	
+		transition: all 0.7s ease;
+		flex-wrap: nowrap;				
+		}
+
+	.link2 {
+		font-family: 'Anton', sans-serif;
+		display: block;
+		background: transparent;	
+		text-decoration: none;
+		font-size: normal;
+		text-align: center;		
+		border: 1px solid #000;					
+		width: 220px;
+		padding-top: 01px;	
+		transition: all 0.7s ease;				
+		margin-left: 1100px;	
+		position: normal;
+	}	
+
+	.links h4 {
+		margin-left: 850px;
+	}	
+
+	.p {
+		margin-left: 850px;
+	}	
+
+	.hst a {
+		margin-left: 1000px;
+		text-decoration: none;
+	   }		
+
+	.offer p {
+		font-size: 50px;
+		padding-top: 300px;
+		margin-left: 190px;
+		}		
+	
+
+	.offer h1 {
+		font-size: 100px;
+		margin-left: 260px;
+		padding-top: 0px;
+		}
+
+	.button {	
+	margin-left: 260px;
+		}
+
+	.button2 {	
+		margin-left: 180px;
+		}		
+
+	.description {
+		background-image: url("https://cdn.discordapp.com/attachments/803288409853395004/831827357903093790/ea08c4f0ad4e890c.png");
+		background-size: 600px;	
+		background-repeat: no-repeat;					
+		background-position-x: 2500px;
+		background-position-y: -100px;		
+		}
+
+	.BX {
+		margin-left: -20px;
+	}	
+
+	.place_talk {
+		margin-left: 0px;
+	}	
+		
+	.many_category h3 {
+		margin-left: 800px;
+		padding-top: 150px;
+		font-size: 38px;
+	}
+
+	.many_category p {
+		margin-left: 800px;
+	}
+
+	.many_category {
+		background-position-x: 100px;
+	}
+
+	.many_category {
+		background: url("https://cdn.discordapp.com/attachments/803288409853395004/831842495230771241/category.png");
+		background-repeat: no-repeat;
+		background-size: 600px;
+		background-position-x: 150px;
+		background-position-y: 60px;
+	}
+		
+	.place_talk {
+		background-image: url("https://cdn.discordapp.com/attachments/827950808867668028/832552071760707634/2021-04-16_15-43-47.png");
+		background-repeat: no-repeat;
+		background-size: 250px;
+		background-position-x: 1000px;
+		background-position-y: 100px;
+	} 
+
+	html {
+		max-width:1920px;
+	}
+	
+}
+		
+
+	
+
+	
+
+
+
